@@ -449,7 +449,7 @@ form>.btn2{
 
 .back{
     position: relative;
-    width: 145%;
+    width: 150%;
     height: 70vh;
     margin-top: 7rem;
     /* background-color: #262626; */
@@ -516,6 +516,11 @@ nav>ul>li{
     grid-gap: 40px;
     margin-top: 50px;
     justify-content: center;
+}
+
+.services-list>div{
+    padding: 3rem;
+    border-radius: 40px;
 }
 
 .work-list{
