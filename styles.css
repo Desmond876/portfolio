@@ -438,7 +438,7 @@ form>.btn2{
     font-size: 35px;
 }
 
-body{
+*{
     overflow-x: hidden;
 }
 
@@ -449,16 +449,16 @@ body{
 
 .back{
     position: relative;
-    width: 170%;
-    height: 80vh;
-    margin-top: 4rem;
+    width: 145%;
+    height: 70vh;
+    margin-top: 7rem;
     /* background-color: #262626; */
     padding-top: 1rem;
 }
 
 .header-text{
     position: absolute;
-    top: -5rem;
+    top: -4rem;
     left: 0;
     z-index: 1;
 }
