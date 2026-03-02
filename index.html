@@ -203,7 +203,7 @@
       </div>
      </div>
 
-    <script>
+    <!-- <script>
 
 
         var tablinks = document.getElementsByClassName("tab-links");
@@ -223,7 +223,6 @@
     </script>
 
     <script>
-
       var sidemenu = document.getElementById("sidemenu");
 
       function openmenu(){
@@ -234,15 +233,24 @@
         sidemenu.style.right = "-200px";
       }
 
-    </script>
-    <script>
-  const scriptURL = '<https://script.google.com/macros/s/AKfycbxhsunOwoCrwuoXCsoLc93SgTTMgm3BKGRDpSNR01Zmsdo4wzdhZ2oPJ3odxaEagUjuAA/exec>'
+
+    </script> -->
+    
+    
+    
+    
+    
+    
+    
+    <!-- <script>
+      let url = ''
+  const scriptURL = url
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg");
 
   form.addEventListener('submit', e => {
     e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form), mode: 'no-cors'})
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
         msg.innerHTML = "Message sent successfully!";
         setTimeout(function(){
@@ -252,6 +260,12 @@
       })
       .catch(error => console.error('Error!', error.message))
   })
-</script>
+
+
+  
+</script> -->
+<script src="./app.js"></script>
   </body>
 </html>
+
+
